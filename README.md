@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg) ![Data Science](https://img.shields.io/badge/Focus-Economics_%26_Data_Science-green.svg) ![Status](https://img.shields.io/badge/Status-In_Progress-orange.svg)
 
-> 🇻🇳 **Note:** *Scroll down for Vietnamese version (Bản tiếng Việt ở phía dưới)*.
+> 🇻🇳 **Note:** *Vietnamese version is below (Bản tiếng Việt ở phía dưới)*.
 
 ---
 
