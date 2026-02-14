@@ -9,7 +9,7 @@
 ## 🇬🇧 English Version
 
 ### 👨‍💻 About Me
-I am **Nguyen Cao Thien An**, a **Double Major in Data Science and Economics** undergraduate at the **University of Wisconsin-Madison**. Combining quantitative rigor with economic theory, I am passionate about applying data science to decode complex market behaviors.
+I am **Cao Thien An Nguyeb**, a **Double Major in Data Science and Economics** undergraduate at the **University of Wisconsin-Madison**. Combining quantitative rigor with economic theory, I am passionate about applying data science to decode complex market behaviors.
 
 This project stems from my deep interest in **Labor Economics and Market Dynamics**. Specifically, I research **how macroeconomic factors (post-pandemic corrections, interest rate hikes) impact workforce efficiency and firm behavior in the Tech sector.**
 
@@ -33,24 +33,23 @@ This project stems from my deep interest in **Labor Economics and Market Dynamic
 ## 🇻🇳 Phiên bản Tiếng Việt
 
 ### 👨‍💻 Giới thiệu
-Mình là **Nguyễn Cao Thiên An**, sinh viên **Song ngành Khoa học Dữ liệu và Kinh tế học** tại **Đại học Wisconsin-Madison**. Sự kết hợp giữa tư duy lập trình và lý thuyết kinh tế giúp mình có cái nhìn đa chiều khi phân tích dữ liệu thị trường.
+Mình là **Nguyễn Cao Thiên Ân**, hiện là sinh viên năm nhất theo đuổi **Song ngành Khoa học Dữ liệu và Kinh tế học** tại **Đại học Wisconsin-Madison**. Việc kết hợp giữa tư duy phân tích định lượng và các học thuyết kinh tế giúp mình có một lăng kính đa chiều hơn khi giải mã những biến động phức tạp của dữ liệu thị trường.
 
-Dự án này xuất phát từ mong muốn nghiên cứu sâu về **Kinh tế Lao động và Biến động Thị trường**. Cụ thể, mình tìm hiểu **cách các yếu tố vĩ mô (điều chỉnh sau đại dịch, tăng lãi suất) ảnh hưởng đến hành vi của doanh nghiệp công nghệ.**
+Dự án này là kết quả từ niềm đam mê của mình đối với **Kinh tế học Lao động và Động lực học Thị trường**. Cụ thể, mình tập trung nghiên cứu **mối quan hệ nhân quả giữa các yếu tố vĩ mô (như sự điều chỉnh của nền kinh tế hậu đại dịch, lộ trình tăng lãi suất) và sự thay đổi trong hành vi quản trị của các tập đoàn công nghệ.**
 
 ### 🎯 Mục tiêu Dự án
-1.  **Phân tích Vĩ mô:** Tìm mối tương quan giữa chính sách tiền tệ của Fed và xu hướng sa thải.
-2.  **Hành vi Vi mô:** Kiểm định giả thuyết "Quyền lực tối thượng của cổ đông" thông qua dữ liệu chứng khoán.
-3.  **Phân tích Chuỗi thời gian:** Xác định "độ trễ" (time lag) giữa cú sập thị trường và quyết định sa thải.
+1.  **Phân tích Vĩ mô:** Xác định mối tương quan giữa các đợt điều chỉnh chính sách tiền tệ của Fed và làn sóng sa thải nhân sự.
+2.  **Hành vi Vi mô:** Kiểm chứng giả thuyết "Sự tối ưu hóa giá trị cổ đông" (Shareholder Primacy) thông qua dữ liệu biến động trên sàn chứng khoán.
+3.  **Phân tích Chuỗi thời gian:** Đo lường chính xác "độ trễ" (time lag) từ thời điểm thị trường chao đảo cho đến khi doanh nghiệp thực thi các quyết định cắt giảm nhân sự.
 
 ### 📊 Kết quả Nổi bật (Giai đoạn 3)
-* **Sự kết thúc của "Tiền rẻ":** Tương quan nghịch đảo rõ rệt giữa Lãi suất Fed và Việc làm ngành Tech. Sa thải bùng nổ khi lãi suất tăng từ 0% lên trên 4%.
-* **Quyền lực Cổ đông & Độ trễ:** Sử dụng Meta (Facebook) làm đại diện, phân tích cho thấy độ trễ **3 đến 4 tháng** từ lúc giá cổ phiếu lao dốc đến khi sa thải hàng loạt.
-* **Tác động theo Ngành (Phân tích SQL):** Các lĩnh vực Bán lẻ (e-Commerce) và Công nghệ Tiêu dùng chịu ảnh hưởng nặng nề nhất.
+* **Hồi kết của kỷ nguyên "Tiền rẻ":** Dữ liệu cho thấy một mối tương quan nghịch rõ rệt giữa Lãi suất Fed và việc làm ngành Tech. Làn sóng sa thải bùng phát mạnh mẽ ngay khi lãi suất rời mức 0% và neo cao trên 4%.
+* **Áp lực Cổ đông & Độ trễ chính sách:** Lấy Meta (Facebook) làm ví dụ điển hình, phân tích cho thấy tồn tại một khoảng trễ từ **3 đến 4 tháng** tính từ lúc giá cổ phiếu sụt giảm cho đến khi các đợt sa thải quy mô lớn được công bố.
+* **Phân hóa theo Ngành (Phân tích SQL):** Kết quả truy vấn cho thấy các lĩnh vực như Bán lẻ trực tuyến (e-Commerce) và Công nghệ Tiêu dùng là những nhóm đối tượng dễ bị tổn thương và chịu ảnh hưởng nặng nề nhất.
 
-### 🛠 Công cụ sử dụng
-* **Ngôn ngữ:** Python (Pandas, Matplotlib, Seaborn), SQL (SQLite).
-* **Nguồn dữ liệu:** FRED API (Vĩ mô), yfinance (Chứng khoán), Layoffs.fyi.
-* **Kỹ thuật:** Phân tích chuỗi thời gian, Tương quan độ trễ (Lag), Trực quan hóa đa trục.
-
+### 🛠 Công cụ & Kỹ thuật
+* **Ngôn ngữ lập trình:** Python (Pandas, Matplotlib, Seaborn), SQL (SQLite).
+* **Nguồn dữ liệu:** FRED API (Dữ liệu vĩ mô), yfinance (Dữ liệu chứng khoán), Layoffs.fyi.
+* **Phương pháp phân tích:** Phân tích chuỗi thời gian (Time-series Analysis), Tương quan độ trễ (Lag Correlation), Trực quan hóa dữ liệu đa trục (Dual-axis Visualization).
 ---
 *Last Updated: February 2026*
