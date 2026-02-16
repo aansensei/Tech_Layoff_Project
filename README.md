@@ -8,7 +8,7 @@
 ## 🇬🇧 English Version
 
 ### 👨‍💻 Professional Profile
-I am **Cao Thien An Nguyen**, an international student at the **University of Wisconsin-Madison** pursuing a **Double Major in Data Science and Economics**. My academic background allows me to bridge the gap between quantitative data engineering and theoretical economic modeling. I aspire to build a career at the intersection of **Data Science, Economic Analysis, and Quantitative Research**.
+I am **Cao Thien An Nguyen**(Preffered name: An), an international student at the **University of Wisconsin-Madison** pursuing a **Double Major in Data Science and Economics**. My academic background allows me to bridge the gap between quantitative data engineering and theoretical economic modeling. I aspire to build a career at the intersection of **Data Science, Economic Analysis, and Quantitative Research**.
 
 This project serves as a comprehensive case study on **Labor Economics and Market Dynamics**. By leveraging the research-driven environment at UW-Madison, I aim to decode how global financial shifts translate into internal corporate restructuring within the technology sector.
 
@@ -68,7 +68,7 @@ Dự án này là một nghiên cứu điển hình về **Kinh tế học Lao �
 
 ---
 
-## 📸 Giai đoạn 5: Dashboard Báo cáo
+## 📸 Giai đoạn 5: Dashboard Report
 *Hình ảnh thực tế từ Tableau Dashboard, so sánh dữ liệu thực và dự báo của AI.*
 
 ![Dashboard Preview](images/dashboard_preview.png)
@@ -101,7 +101,7 @@ Trong giai đoạn dự báo, mô hình Random Forest của mình đã đoán đ
 ---
 
 ## ✉️ Contact Information
-* **Full Name:** Nguyen Cao Thien An
+* **Full Name:** Nguyen, Cao Thien An
 * **University:** University of Wisconsin-Madison
 * **LinkedIn:** [linkedin.com/in/cao-thien-an-nguyen-0a92a4396/](https://www.linkedin.com/in/cao-thien-an-nguyen-0a92a4396/)
 * **Major:** Data Science & Economics
