@@ -28,7 +28,7 @@ My core hypothesis was the **"Lagged Transmission Theory"**: *Economic shocks do
     2.  **Feature Engineering:** This was the most critical step. I created **Lagged Variables (t-1, t-2, t-3)** to test if past stock returns predict future layoffs.
     3.  **Modeling:** I compared Linear Regression vs. **Random Forest** to capture non-linear patterns.
 
-![Perfect Storm Chart](images/perfect_storm_chart.png)
+![Perfect Storm Chart](images/advanced_recession_analysis.png)
 *Figure 2: "The Perfect Storm" (Dual-Axis Analysis). The blue line represents Meta's stock price, and the grey bars represent layoffs. Visual inspection confirms the hypothesis: a stock crash at month (t) is consistently followed by a layoff spike at month (t+3).*
 
 ### 4. Key Results & Critical Findings
@@ -73,7 +73,7 @@ Giả định cốt lõi của mình là **"Lý thuyết Truyền dẫn có Đ�
     2.  **Kỹ thuật đặc trưng:** Tạo các **Biến trễ (Lagged Variables)** lùi lại 1, 2, và 3 tháng.
     3.  **Mô hình hóa:** So sánh Random Forest (phi tuyến tính) với Hồi quy tuyến tính.
 
-![Biểu đồ Perfect Storm](images/perfect_storm_chart.png)
+![Biểu đồ Perfect Storm](images/advanced_recession_analysis.png)
 *Hình 2: "Cơn bão hoàn hảo" (Phân tích trục kép). Đường màu xanh là giá cổ phiếu Meta, cột màu xám là số lượng sa thải. Biểu đồ xác nhận giả định: Cổ phiếu sập ở tháng (t) luôn kéo theo sa thải tăng vọt ở tháng (t+3).*
 
 ### 4. Kết quả Nổi bật (Key Results)
