@@ -8,7 +8,7 @@
 ## 🇬🇧 English Version
 
 ### 👨‍💻 Professional Profile
-I am **Cao Thien An Nguyen**(Preffered name: An), an international student at the **University of Wisconsin-Madison** pursuing a **Double Major in Data Science and Economics**. My academic background allows me to bridge the gap between quantitative data engineering and theoretical economic modeling. I aspire to build a career at the intersection of **Data Science, Economic Analysis, and Quantitative Research**.
+I am **Cao Thien An Nguyen** (Preffered name: An), an international student at the **University of Wisconsin-Madison** pursuing a **Double Major in Data Science and Economics**. My academic background allows me to bridge the gap between quantitative data engineering and theoretical economic modeling. I aspire to build a career at the intersection of **Data Science, Economic Analysis, and Quantitative Research**.
 
 This project serves as a comprehensive case study on **Labor Economics and Market Dynamics**. By leveraging the research-driven environment at UW-Madison, I aim to decode how global financial shifts translate into internal corporate restructuring within the technology sector.
 
@@ -56,9 +56,9 @@ In the forecasting phase, my Random Forest model correctly predicted a rising tr
 ## 🇻🇳 Phiên bản Tiếng Việt
 
 ### 👨‍💻 Hồ sơ Chuyên môn
-Mình là **Nguyễn Cao Thiên Ân**, hiện là sinh viên quốc tế tại **Đại học Wisconsin-Madison** theo đuổi **Song ngành Khoa học Dữ liệu và Kinh tế học**. Với nền tảng kết hợp giữa tư duy định lượng và lý thuyết kinh tế, mình hướng tới mục tiêu trở thành một **Data Scientist, Nhà phân tích Kinh tế hoặc Chuyên viên Nghiên cứu Định lượng (Quant Researcher)**.
+Mình là **Nguyễn Cao Thiên Ân**, hiện là sinh viên quốc tế tại **Viện đại học Wisconsin-Madison** theo đuổi **Song ngành Khoa học Dữ liệu và Kinh tế học**. Với nền tảng kết hợp giữa tư duy định lượng và lý thuyết kinh tế, mình hướng tới mục tiêu trở thành một **Data Scientist, Nhà phân tích Kinh tế hoặc Chuyên viên Nghiên cứu Định lượng (Quant Researcher)**.
 
-Dự án này là một nghiên cứu điển hình về **Kinh tế học Lao động và Động lực học Thị trường**. Tận dụng môi trường học thuật chuyên sâu tại UW-Madison, mình tập trung giải mã cách các biến động tài chính toàn cầu chuyển hóa thành các quyết định tái cơ cấu nội bộ trong ngành công nghệ.
+Dự án này được mình định hướng là một nghiên cứu điển hình về **Kinh tế học Lao động và Động lực học Thị trường**. Tận dụng môi trường học thuật chuyên sâu tại UW-Madison, mình đã và đang cố gắng tập trung giải mã cách các biến động tài chính toàn cầu chuyển hóa thành các quyết định tái cơ cấu nội bộ trong ngành công nghệ.
 
 ### 🎯 Kiến trúc Dự án
 1.  **Kỹ thuật Dữ liệu:** Tổng hợp dữ liệu từ FRED (Vĩ mô), Yahoo Finance (Chứng khoán) và Layoffs.fyi bằng Python & SQL.
@@ -92,7 +92,7 @@ Trong giai đoạn dự báo, mô hình Random Forest của mình đã đoán đ
 * **Áp lực từ Cổ đông:** Lấy **Meta Platforms (META)** làm đại diện, giá cổ phiếu sụt giảm thường diễn ra trước các thông báo sa thải từ **3 đến 4 tháng**. Điều này xác nhận sa thải là phản ứng có độ trễ nhằm trấn an nhà đầu tư.
 * **Phân hóa Ngành:** Truy vấn SQL cho thấy Bán lẻ trực tuyến và Dịch vụ tiêu dùng chịu ảnh hưởng nặng nề nhất, trong khi mảng Cơ sở hạ tầng AI chống chịu tốt hơn.
 
-### 🛠 Kỹ năng Kỹ thuật
+### 🛠 Kỹ năng Chuyên ngành
 * **Lập trình:** Python (Pandas, NumPy, Scikit-Learn).
 * **Cơ sở dữ liệu:** SQL (SQLite).
 * **Công cụ Kinh tế:** FRED API và `yfinance`.
