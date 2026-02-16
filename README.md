@@ -28,7 +28,7 @@ This project serves as a comprehensive case study on **Labor Economics and Marke
 
 ---
 
-## 🤖 Phase 4: Critical AI Reflection
+## 🤖 Phase 4: Critical Reflection
 **"Why did the model under-predict the 2025 Spike?"**
 
 In the forecasting phase, my Random Forest model correctly predicted a rising trend in layoffs but underestimated the sheer magnitude of the early 2025 spike (Actual: ~24k vs. Predicted: ~10k).
