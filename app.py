@@ -94,8 +94,8 @@ fig_pred = px.line(filtered_pred, x='Date', y=['Actual_Layoffs', 'Predicted_Layo
 fig_pred.update_layout(hovermode="x unified")
 st.plotly_chart(fig_pred, use_container_width=True)
 
-st.info(f"**Insight:** The gap between the <span style='color:#0083B8'>**Blue line (Prediction)**</span> and <span style='color:#FF4B4B'>**Red line (Actual)**</span> in early 2025 represents the psychological 'Herd Mentality' factor.", unsafe_allow_html=True)
 # ------------------------
+st.info("**Insight:** The gap between the **Blue line (Prediction)** and **Red line (Actual)** in early 2025 represents the psychological 'Herd Mentality' factor.")
 
 # Part 3: Explore by Industry
 st.subheader("Explore Layoffs by Industry")
