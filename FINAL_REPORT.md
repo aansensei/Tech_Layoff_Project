@@ -15,7 +15,7 @@
     * [5. Conclusion](#5-conclusion)
     * [6. Future Directions](#6-future-directions)
 3.  [Vietnamese Version](#vietnamese-version)
-    * [Tóm tắt: Hành trình Khám phá](#tóm-tắt-hành-trình-khám-phá)
+    * [Tóm tắt: Hành trình Khám phá](#tóm-tắt-hành-trình-khai-phá)
     * [1. Khởi nguồn Ý tưởng](#1-khởi-nguồn-ý-tưởng-ideation)
     * [2. Chiến lược Chọn Dữ liệu](#2-chiến-lược-chọn-dữ-liệu-data-selection)
     * [3. Phương pháp & Giả định](#3-phương-pháp--giả-định-methodology)
@@ -86,7 +86,7 @@ To further refine this analysis, future iterations of this project should focus 
 
 ## Vietnamese Version
 
-### Tóm tắt: Hành trình Khai phá
+### Tóm tắt: Hành trình khai phá
 > "Ban đầu mình đưa ra một giả thuyết khá đơn giản: Lãi suất giết chết việc làm. Nhưng dữ liệu lại kể một câu chuyện khác."
 
 Quá trình nghiên cứu của mình đã đi qua 3 giai đoạn cảm xúc:
