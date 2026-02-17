@@ -18,13 +18,21 @@ def load_data():
     df_pred = pd.read_csv('data/processed/model_predictions_for_tableau.csv')
     df_pred['Date'] = pd.to_datetime(df_pred['Date'])
 
+    # Fix column name for predictions if needed
+    if 'Predicted_Layoffs_RF' in df_pred.columns:
+        df_pred.rename(
+            columns={'Predicted_Layoffs_RF': 'Predicted_Layoffs'}, inplace=True)
+
     # phase 1-3 raw data (cleaned) for detailed exploration
     df_raw = pd.read_csv('data/processed/tech_layoffs_clean.csv')
 
+    # --- FIX: Tự động chuẩn hóa tên cột ---
     df_raw.columns = df_raw.columns.str.strip()
     rename_map = {
         'date': 'Date', 'laid_off_date': 'Date',
-        'Date_Added': 'Date', 'date_added': 'Date'
+        'Date_Added': 'Date', 'date_added': 'Date',
+        'laid_off_count': 'Laid_Off_Count',
+        'industry': 'Industry'
     }
     df_raw.rename(columns=rename_map, inplace=True)
     # -------------------------------------------
@@ -41,7 +49,7 @@ except FileNotFoundError:
     st.stop()
 except KeyError as e:
     st.error(
-        f"Lỗi cấu trúc dữ liệu: Không tìm thấy cột 'Date'. Các cột hiện có: {pd.read_csv('data/processed/tech_layoffs_clean.csv').columns.tolist()}")
+        f"Lỗi cấu trúc dữ liệu: {e}. Các cột hiện có: {pd.read_csv('data/processed/tech_layoffs_clean.csv').columns.tolist()}")
     st.stop()
 
 # 3. SIDEBAR - FILTERS
@@ -73,7 +81,7 @@ col3.metric("Peak Month", max_layoff_month)
 
 st.markdown("---")
 
-# part 2: AI(ML) Forecast vs Reality
+# part 2: AI Forecast vs Reality
 st.subheader("AI(ML) Forecast vs. Reality: The 'Social Contagion' Gap")
 
 fig_pred = px.line(filtered_pred, x='Date', y=['Actual_Layoffs', 'Predicted_Layoffs'],
@@ -100,6 +108,6 @@ fig_ind = px.bar(industry_group, x='Date', y='Laid_Off_Count',
                  color='Laid_Off_Count', title=f"Layoff Trends in {selected_industry}")
 st.plotly_chart(fig_ind, use_container_width=True)
 
-# Part 4: Raw Data Exploration
+# Part 4: Raw Data Exploration...
 with st.expander("See Raw Data"):
     st.dataframe(filtered_pred)
