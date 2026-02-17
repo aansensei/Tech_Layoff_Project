@@ -6,8 +6,8 @@
 ---
 
 ## Table of Contents
-1.  [Executive Summary: The Discovery Journey](#executive-summary-the-discovery-journey)
-2.  [English Version](#english-version)
+1.  [English Version](#english-version)
+    * [Executive Summary: The Discovery Journey](#executive-summary-the-discovery-journey)
     * [1. Ideation & Motivation](#1-ideation--motivation)
     * [2. Data Selection Strategy](#2-data-selection-strategy)
     * [3. Methodology & Hypothesis](#3-methodology--hypothesis)
@@ -15,6 +15,7 @@
     * [5. Conclusion](#5-conclusion)
     * [6. Future Directions](#6-future-directions)
 3.  [Vietnamese Version](#vietnamese-version)
+    * [Tóm tắt: Hành trình Khám phá](#tóm-tắt-hành-trình-khám-phá)
     * [1. Khởi nguồn Ý tưởng](#1-khởi-nguồn-ý-tưởng-ideation)
     * [2. Chiến lược Chọn Dữ liệu](#2-chiến-lược-chọn-dữ-liệu-data-selection)
     * [3. Phương pháp & Giả định](#3-phương-pháp--giả-định-methodology)
@@ -24,7 +25,8 @@
 
 ---
 
-## Executive Summary: The Discovery Journey
+## English Version
+### Executive Summary: The Discovery Journey
 > "I started with a simple hypothesis: Interest rates kill jobs. But the data told a different story."
 
 My investigation went through 3 emotional stages:
@@ -34,10 +36,6 @@ My investigation went through 3 emotional stages:
     * *The Pivot:* I realized Economic Data wasn't enough.
 3.  **The Realization:** The missing variable was **Human Psychology** (Herd Mentality).
     * *Result:* I pivoted from a pure technical analysis to a behavioral economics study.
-
----
-
-## English Version
 
 ### 1. Ideation & Motivation
 The genesis of this project came from a simple yet troubling observation: In early 2025, despite many tech giants reporting stable profits, thousands of employees were being laid off. As a double major in **Data Science and Economics**, I wanted to investigate whether these layoffs were purely operational necessities or strategic reactions to financial market pressure. I aimed to build a bridge between **Macroeconomic Theory** (The Fed) and **Microeconomic Reality** (The Employee).
@@ -87,6 +85,17 @@ To further refine this analysis, future iterations of this project should focus 
 ---
 
 ## Vietnamese Version
+
+### Tóm tắt: Hành trình Khai phá
+> "Ban đầu mình đưa ra một giả thuyết khá đơn giản: Lãi suất giết chết việc làm. Nhưng dữ liệu lại kể một câu chuyện khác."
+
+Quá trình nghiên cứu của mình đã đi qua 3 giai đoạn cảm xúc:
+1.  **Giả định:** Mình tin rằng thị trường chứng khoán sập sẽ gây ra sa thải ngay lập tức.
+    * *Khám phá:* Dữ liệu chỉ ra một **độ trễ 3 tháng** nhất quán.
+2.  **Sự Bối rối:** Mô hình Lý trí của mình dự báo 10k người bị sa thải năm 2025, nhưng thực tế lên tới 24k.
+    * *Bước ngoặt:* Mình nhận ra chỉ Dữ liệu Kinh tế là chưa đủ.
+3.  **Phát hiện:** Biến số còn thiếu chính là **Tâm lý Con người** (Tâm lý Bầy đàn).
+    * *Kết quả:* Mình chuyển hướng từ phân tích kỹ thuật thuần túy sang nghiên cứu kinh tế hành vi.
 
 ### 1. Khởi nguồn Ý tưởng (Ideation)
 Dự án này bắt đầu từ một thắc mắc nhỏ nhoi của cá nhân mình khi quan sát thị trường: Tại sao vào đầu năm 2025, dù nhiều công ty công nghệ vẫn báo lãi, nhưng làn sóng sa thải lại diễn ra ồ ạt?
