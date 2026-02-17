@@ -19,7 +19,7 @@
     * [2. Chiến lược Chọn Dữ liệu](#2-chiến-lược-chọn-dữ-liệu-data-selection)
     * [3. Phương pháp & Giả định](#3-phương-pháp--giả-định-methodology)
     * [4. Kết quả Nổi bật](#4-kết-quả-nổi-bật-key-results)
-    * [5. Kết luận](#5-kết-luận-1)
+    * [5. Kết luận](#5-kết-luận)
     * [6. Hướng phát triển](#6-hướng-phát-triển)
 
 ---
