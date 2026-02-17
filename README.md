@@ -51,6 +51,7 @@ In the forecasting phase, my Random Forest model correctly predicted a rising tr
 * **Economic Tools:** FRED API (Macro) and `yfinance` (Market Data).
 * **BI & Visualization:** **Tableau** for business dashboards and Matplotlib/Seaborn for statistical plotting.
 
+*More details are available in the Final Report: ./FINAL_REPORT.md*
 ---
 
 ## 🇻🇳 Phiên bản Tiếng Việt
@@ -106,5 +107,6 @@ Trong giai đoạn dự báo, mô hình Random Forest của mình đã đoán đ
 * **LinkedIn:** [linkedin.com/in/cao-thien-an-nguyen-0a92a4396/](https://www.linkedin.com/in/cao-thien-an-nguyen-0a92a4396/)
 * **Major:** Data Science & Economics
 
+*Thông tin chi tiết hơn được đề cập ở file FINAL_REPORT: ./FINAL_REPORT.md*
 ---
 *Last Updated: February 2026*
