@@ -26,7 +26,7 @@ def load_data():
     # phase 1-3 raw data (cleaned) for detailed exploration
     df_raw = pd.read_csv('data/processed/tech_layoffs_clean.csv')
 
-    # --- FIX: Tự động chuẩn hóa tên cột ---
+    # fixing column names for consistency
     df_raw.columns = df_raw.columns.str.strip()
     rename_map = {
         'date': 'Date', 'laid_off_date': 'Date',
@@ -84,14 +84,18 @@ st.markdown("---")
 # part 2: AI Forecast vs Reality
 st.subheader("AI(ML) Forecast vs. Reality: The 'Social Contagion' Gap")
 
+# Define custom colors for the lines
+colors = {'Actual_Layoffs': '#FF4B4B', 'Predicted_Layoffs': '#0083B8'}
+
 fig_pred = px.line(filtered_pred, x='Date', y=['Actual_Layoffs', 'Predicted_Layoffs'],
                    labels={'value': 'Employees', 'variable': 'Metric'},
-                   color_discrete_map={'Actual_Layoffs': 'black', 'Predicted_Layoffs': '#00CC96'})
+                   color_discrete_map=colors)
 
 fig_pred.update_layout(hovermode="x unified")
 st.plotly_chart(fig_pred, use_container_width=True)
 
-st.info("**Insight:** The gap between the Green line (Prediction) and Black line (Actual) in early 2025 represents the psychological 'Herd Mentality' factor.")
+st.info(f"**Insight:** The gap between the <span style='color:#0083B8'>**Blue line (Prediction)**</span> and <span style='color:#FF4B4B'>**Red line (Actual)**</span> in early 2025 represents the psychological 'Herd Mentality' factor.", unsafe_allow_html=True)
+# ------------------------
 
 # Part 3: Explore by Industry
 st.subheader("Explore Layoffs by Industry")
@@ -105,9 +109,9 @@ industry_group = industry_df.groupby(
     'Date')['Laid_Off_Count'].sum().reset_index()
 
 fig_ind = px.bar(industry_group, x='Date', y='Laid_Off_Count',
-                 color='Laid_Off_Count', title=f"Layoff Trends in {selected_industry}")
+                 title=f"Layoff Trends in {selected_industry}")
 st.plotly_chart(fig_ind, use_container_width=True)
 
-# Part 4: Raw Data Exploration...
+# Part 4: Raw Data Exploration
 with st.expander("See Raw Data"):
     st.dataframe(filtered_pred)
