@@ -1,9 +1,11 @@
 import pandas as pd
 from fredapi import Fred
 import os
+from dotenv import load_dotenv
 
-# Initialize FRED API with the key
-fred = Fred(api_key='555f8c5c9fac92d3c858d9a9926e02f8')
+load_dotenv()
+
+fred = Fred(api_key=os.getenv('FRED_API_KEY'))
 
 # --- DEFINING INDICATORS (Các chỉ số kinh tế) ---
 # FEDFUNDS: Federal Funds Rate (Lãi suất)
