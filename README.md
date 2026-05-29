@@ -1,11 +1,3 @@
----
-title: Tech Layoff Analytics
-colorFrom: blue
-colorTo: red
-sdk: docker
-pinned: false
----
-
 # Global Tech Layoffs Analysis (2020 - 2026)
 ### An Intersection of Macroeconomics, Financial Markets, and Data Science
 
