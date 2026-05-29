@@ -45,7 +45,7 @@ To make the data accessible and actionable, I developed a live web application u
 ## Phase 5: The Intelligence Dashboard
 *Visualizing the correlation between AI predictions and actual market events.*
 
-![Dashboard Preview](images/dashboard_preview.png)
+![Dashboard Preview](https://raw.githubusercontent.com/aansensei/Tech_Layoff_Project/main/images/dashboard_preview.png)
 *(Screenshot of the final Dashboard showing Actual vs. Predicted Layoffs)*
 
 ---
@@ -104,7 +104,7 @@ Dự án này được mình định hướng là một nghiên cứu điển h�
 ## Giai đoạn 5: Dashboard Report
 *Hình ảnh thực tế từ Dashboard, so sánh dữ liệu thực và dự báo của AI.*
 
-![Dashboard Preview](images/dashboard_preview.png)
+![Dashboard Preview](https://raw.githubusercontent.com/aansensei/Tech_Layoff_Project/main/images/dashboard_preview.png)
 
 ---
 
