@@ -2,9 +2,7 @@
 title: Tech Layoff Analytics
 colorFrom: blue
 colorTo: red
-sdk: streamlit
-sdk_version: 1.48.0
-app_file: app.py
+sdk: docker
 pinned: false
 ---
 
